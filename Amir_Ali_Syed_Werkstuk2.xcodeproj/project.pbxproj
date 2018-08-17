@@ -13,8 +13,8 @@
 		292551B22126BD9200189564 /* Amir_Ali_Syed_Werkstuk2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 292551B02126BD9200189564 /* Amir_Ali_Syed_Werkstuk2.xcdatamodeld */; };
 		292551B42126BD9400189564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292551B32126BD9400189564 /* Assets.xcassets */; };
 		292551B72126BD9400189564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292551B52126BD9400189564 /* LaunchScreen.storyboard */; };
-		292551C22126BD9400189564 /* Amir_Ali_Syed_Werkstuk2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292551C12126BD9400189564 /* Amir_Ali_Syed_Werkstuk2Tests.swift */; };
-		292551CD2126BD9400189564 /* Amir_Ali_Syed_Werkstuk2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292551CC2126BD9400189564 /* Amir_Ali_Syed_Werkstuk2UITests.swift */; };
+		292551DE2126C3AD00189564 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292551DD2126C3AD00189564 /* Station.swift */; };
+		292551E02126C41A00189564 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292551DF2126C41A00189564 /* Annotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +44,9 @@
 		292551B62126BD9400189564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		292551B82126BD9400189564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		292551BD2126BD9400189564 /* Amir_Ali_Syed_Werkstuk2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Amir_Ali_Syed_Werkstuk2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		292551C12126BD9400189564 /* Amir_Ali_Syed_Werkstuk2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amir_Ali_Syed_Werkstuk2Tests.swift; sourceTree = "<group>"; };
-		292551C32126BD9400189564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		292551C82126BD9400189564 /* Amir_Ali_Syed_Werkstuk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Amir_Ali_Syed_Werkstuk2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		292551CC2126BD9400189564 /* Amir_Ali_Syed_Werkstuk2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amir_Ali_Syed_Werkstuk2UITests.swift; sourceTree = "<group>"; };
-		292551CE2126BD9400189564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		292551DD2126C3AD00189564 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		292551DF2126C41A00189564 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				292551A82126BD9200189564 /* Amir_Ali_Syed_Werkstuk2 */,
-				292551C02126BD9400189564 /* Amir_Ali_Syed_Werkstuk2Tests */,
-				292551CB2126BD9400189564 /* Amir_Ali_Syed_Werkstuk2UITests */,
 				292551A72126BD9200189564 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,33 +95,41 @@
 		292551A82126BD9200189564 /* Amir_Ali_Syed_Werkstuk2 */ = {
 			isa = PBXGroup;
 			children = (
-				292551A92126BD9200189564 /* AppDelegate.swift */,
+				292551DC2126C32300189564 /* Files */,
+				292551DB2126C30D00189564 /* Controller */,
+				292551DA2126C30400189564 /* Model */,
 				292551AB2126BD9200189564 /* ViewController.swift */,
 				292551AD2126BD9200189564 /* Main.storyboard */,
 				292551B32126BD9400189564 /* Assets.xcassets */,
-				292551B52126BD9400189564 /* LaunchScreen.storyboard */,
 				292551B82126BD9400189564 /* Info.plist */,
 				292551B02126BD9200189564 /* Amir_Ali_Syed_Werkstuk2.xcdatamodeld */,
 			);
 			path = Amir_Ali_Syed_Werkstuk2;
 			sourceTree = "<group>";
 		};
-		292551C02126BD9400189564 /* Amir_Ali_Syed_Werkstuk2Tests */ = {
+		292551DA2126C30400189564 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				292551C12126BD9400189564 /* Amir_Ali_Syed_Werkstuk2Tests.swift */,
-				292551C32126BD9400189564 /* Info.plist */,
+				292551DD2126C3AD00189564 /* Station.swift */,
+				292551DF2126C41A00189564 /* Annotation.swift */,
 			);
-			path = Amir_Ali_Syed_Werkstuk2Tests;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		292551CB2126BD9400189564 /* Amir_Ali_Syed_Werkstuk2UITests */ = {
+		292551DB2126C30D00189564 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				292551CC2126BD9400189564 /* Amir_Ali_Syed_Werkstuk2UITests.swift */,
-				292551CE2126BD9400189564 /* Info.plist */,
 			);
-			path = Amir_Ali_Syed_Werkstuk2UITests;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		292551DC2126C32300189564 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				292551B52126BD9400189564 /* LaunchScreen.storyboard */,
+				292551A92126BD9200189564 /* AppDelegate.swift */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				292551B22126BD9200189564 /* Amir_Ali_Syed_Werkstuk2.xcdatamodeld in Sources */,
+				292551E02126C41A00189564 /* Annotation.swift in Sources */,
 				292551AC2126BD9200189564 /* ViewController.swift in Sources */,
+				292551DE2126C3AD00189564 /* Station.swift in Sources */,
 				292551AA2126BD9200189564 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				292551C22126BD9400189564 /* Amir_Ali_Syed_Werkstuk2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				292551CD2126BD9400189564 /* Amir_Ali_Syed_Werkstuk2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
