@@ -1,0 +1,18 @@
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "A0W-Ep-688"; */
+"A0W-Ep-688.title" = "Title";
+
+/* Class = "UILabel"; text = "Station address:"; ObjectID = "Lmi-am-LvH"; */
+"Lmi-am-LvH.text" = "Station address:";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Mqh-Kg-pqx"; */
+"Mqh-Kg-pqx.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "RHN-Af-waT"; */
+"RHN-Af-waT.title" = "Item";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "X0u-ih-Kmi"; */
+"X0u-ih-Kmi.text" = "Label";
+
+/* Class = "UILabel"; text = "Station name:"; ObjectID = "nY3-8k-c15"; */
+"nY3-8k-c15.text" = "Station name:";

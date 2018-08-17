@@ -13,7 +13,7 @@ import CoreData
 
 class MapViewController: UIViewController, MKMapViewDelegate,CLLocationManagerDelegate {
     @IBOutlet weak var mapView: MKMapView!
-    @IBAction func refreshButton( sender: UIBarButtonItem){
+    @IBAction func refreshButton(_ sender: UIBarButtonItem) {
         self.viewDidLoad()
     }
     
@@ -61,7 +61,7 @@ class MapViewController: UIViewController, MKMapViewDelegate,CLLocationManagerDe
         }
     }
     
-    func mapView(_ mapView:MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
+    func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         let annotationView = view.annotation
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "Detail") as! DetailViewController

@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Amir_Ali_Syed_Werkstuk2
+
+  Created by Amir Ali Syed on 17/08/2018.
+  Copyright © 2018 Amir Ali Syed. All rights reserved.
+*/
+
+"app_title" = "Villo Stations";
+"lbl_station_name" = "Station naam:";
+"lbl_station_address" = "Station adres:";
