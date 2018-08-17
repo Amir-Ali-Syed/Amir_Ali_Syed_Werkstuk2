@@ -15,6 +15,8 @@
 		292551B72126BD9400189564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 292551B52126BD9400189564 /* LaunchScreen.storyboard */; };
 		292551DE2126C3AD00189564 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292551DD2126C3AD00189564 /* Station.swift */; };
 		292551E02126C41A00189564 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292551DF2126C41A00189564 /* Annotation.swift */; };
+		292551E22126C6A600189564 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292551E12126C6A600189564 /* DetailViewController.swift */; };
+		292551E42126C84E00189564 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292551E32126C84E00189564 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		292551C82126BD9400189564 /* Amir_Ali_Syed_Werkstuk2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Amir_Ali_Syed_Werkstuk2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		292551DD2126C3AD00189564 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 		292551DF2126C41A00189564 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		292551E12126C6A600189564 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		292551E32126C84E00189564 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 		292551DB2126C30D00189564 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				292551E12126C6A600189564 /* DetailViewController.swift */,
+				292551E32126C84E00189564 /* MapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -266,8 +272,10 @@
 				292551B22126BD9200189564 /* Amir_Ali_Syed_Werkstuk2.xcdatamodeld in Sources */,
 				292551E02126C41A00189564 /* Annotation.swift in Sources */,
 				292551AC2126BD9200189564 /* ViewController.swift in Sources */,
+				292551E22126C6A600189564 /* DetailViewController.swift in Sources */,
 				292551DE2126C3AD00189564 /* Station.swift in Sources */,
 				292551AA2126BD9200189564 /* AppDelegate.swift in Sources */,
+				292551E42126C84E00189564 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
